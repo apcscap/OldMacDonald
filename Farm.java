@@ -17,7 +17,6 @@ class Farm
 
 	public void animalSounds() {
 		for(int i=0;i<aBunchOfAnimals.length;i++) {
-			System.out.println("aBunchOfAnimals[i].getClass(): "+aBunchOfAnimals[i].getClass());
 			System.out.println(aBunchOfAnimals[i].getType() + " goes " + aBunchOfAnimals[i].getSound());
 		}
 		System.out.println("cow's name is: " + ((NamedCow)aBunchOfAnimals[numberOfAnimals-1]).getName());
